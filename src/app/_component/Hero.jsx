@@ -3,10 +3,16 @@ import React from "react";
 function Hero() {
   return (
     <section class="">
-      <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen  ">
-        <div class=" relative mx-auto max-w-xl text-center">
-          <div className="absolute w-[200px] top-0 left-0 h-[200px]  blur-[70px] rounded-full bg-opacity-90 bg-red-600 z-1"></div>
-          <div className="absolute w-[200px] h-[200px]  right-0  blur-[70px] rounded-full bg-opacity-90 bg-pink-600 z-1"></div>
+      <div style={{ 
+        backgroundImage: "url('/bg4.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }} class="mx-auto max-w-screen-xl px-4 py-56 lg:flex lg:h-screen   ">
+        <div class="  mx-auto max-w-xl text-center">
+          <div className="absolute w-[200px] h-[200px]  left-0  blur-[70px] rounded-full bg-opacity-90 bg-pink-600 z-1"></div>
+        
+          <div className="absolute w-[200px]  right-0 h-[200px]  blur-[70px] rounded-full bg-opacity-90 bg-red-600 z-1"></div>
+
           <div className=" z-10 relative ">
             <h1 class="text-3xl font-extrabold sm:text-5xl">
             Flourish Company
