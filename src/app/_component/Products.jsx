@@ -48,7 +48,7 @@ function Products() {
 
                 <p className="mt-4 text-gray-600">
                   Handmade owners who use cotton, linen, silk, natural leather,
-                  and banana leaves ,The first company to make natural dyes in
+                  and banana leaves ,The first company  in
                   Upper Egypt
                 </p>
 

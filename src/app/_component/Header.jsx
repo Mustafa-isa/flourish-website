@@ -6,7 +6,7 @@ function Header() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
-          <Image src='/logo.svg' alt="Logo" height={80} width={80} />
+          <Image src='/flourish.png' alt="Logo" height={80} width={80} />
           </div>
 
           <div className="hidden md:block">

@@ -23,7 +23,7 @@ function Hero() {
             </h1>
 
             <p class="mt-4 sm:text-xl/relaxed">
-            We are Flourish, a company dedicated to produce textile dyed with a natural dyes instead of chemical dyes
+            We are Flourish, a company dedicated to produce textile dyed with a natural dyes 
             </p>
             <p class="mt-4 sm:text-xl/relaxed">
             Flourish reduces the total contamination of chemical dyes by 15%
