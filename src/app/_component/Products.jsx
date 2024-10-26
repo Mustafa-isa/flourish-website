@@ -46,10 +46,13 @@ function Products() {
               <div className="lg:py-24">
                 <h2 className="text-3xl font-bold sm:text-4xl">What We Are</h2>
 
-                <p className="mt-4 text-gray-600">
-                  Handmade owners who use cotton, linen, silk, natural leather,
-                  and banana leaves ,The first company  in
-                  Upper Egypt
+                <p className="mt-4 text-sm sm:text-lg md:text-xl text-gray-600">
+                  Welcome to the world of natural dyes! We offer a variety of
+                  colors derived from 100% plant-based sources as a healthy and
+                  sustainable alternative to chemical dyes. Our products are
+                  designed to meet your needs while preserving the environment,
+                  using recycled plant waste to create high-quality, vibrant
+                  colors.
                 </p>
 
                 <a
@@ -62,11 +65,70 @@ function Products() {
             </div>
           </div>
         </section>
+        <div class="bg-white shadow-md rounded-lg w-full p-6">
+          <h2 class="text-2xl font-bold mb-4 text-gray-800">
+            Why Choose Natural Dyes?
+          </h2>
+          <ul class="list-disc list-inside space-y-4">
+            <li class="text-gray-700">
+              <strong>Safe and Healthy:</strong> Free from harmful chemicals,
+              suitable for children and individuals with sensitive skin.
+            </li>
+            <li class="text-gray-700">
+              <strong>Eco-Friendly:</strong> Helps reduce waste and promotes
+              sustainability by repurposing plant materials.
+            </li>
+            <li class="text-gray-700">
+              <strong>Superior Performance:</strong> Offers long-lasting,
+              vibrant colors that retain their charm over time.
+            </li>
+          </ul>
+        </div> 
+        <div className="flex flex-wrap items-center justify-center gap-5  w-full"> 
+        <Image
+                  alt=""
+                  width={300}
+                  height={200}
+                  src="/i4.jpeg"
+            
+                />
+                      <Image
+                  alt=""
+                  width={300}
+                  height={200}
+                  src="/i1.jpeg"
+            
+                />
+                      <Image
+                  alt=""
+                  width={300}
+                  height={200}
+                  src="/i5.jpeg"
+          
+                />
+                      <Image
+                  alt=""
+                  width={300}
+                  height={200}
+                  src="/i2.jpeg"
+          
+                />
+                      <Image
+                  alt=""
+                  width={300}
+                  height={200}
+                  src="/i3.jpeg"
+            
+                />
+
+                
+        </div>
         <section>
           <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
             <div className="max-w-3xl">
               <h2 className="text-3xl font-bold sm:text-4xl capitalize">
-              the company s ethos extends beyond the production line. It embodies a spirit of empowerment, providing opportunities for Egyptian 
+                We transform plant waste—such as fruit peels, tree leaves, and
+                flowers—into premium natural dyes. Our products ensure color
               </h2>
             </div>
 
@@ -108,6 +170,33 @@ function Products() {
             </div>
           </div>
         </section>
+        <div class="max-w-3xl mx-auto py-12 px-6 lg:px-12">
+          <div className=" flex w-full  flex-wrap items-center justify-center gap-10">
+            <section class="mb-12 bg-gradient-to-br from-green-100 to-blue-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <h2 class="text-3xl font-extrabold text-gray-800 mb-4">
+                Our Products
+              </h2>
+              <p class="text-gray-700 text-lg">
+                Explore a variety of natural colors that spark creativity. Our
+                collection ranges from soft to warm tones inspired by nature,
+                including reds from pomegranate peels, yellows from turmeric,
+                and greens from mint leaves.
+              </p>
+            </section>
+
+            <section class="bg-gradient-to-br from-yellow-100 to-pink-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+              <h2 class="text-3xl font-extrabold text-gray-800 mb-4">
+                Our Vision
+              </h2>
+              <p class="text-gray-700 text-lg">
+                We aim to promote the use of natural dyes and support
+                sustainability across industries. Together, we can make a
+                difference through eco-conscious choices that enhance beauty
+                while protecting the planet.
+              </p>
+            </section>
+          </div>
+        </div>
       </div>
     </div>
   );

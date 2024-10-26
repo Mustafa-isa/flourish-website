@@ -18,7 +18,7 @@ function Hero() {
             Flourish Company
               <strong class="font-extrabold text-red-700 sm:block">
                 {" "}
-                Increase Conversion.{" "}
+                Quality and Sustainability
               </strong>
             </h1>
 
